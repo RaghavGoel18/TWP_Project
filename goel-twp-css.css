@@ -140,25 +140,25 @@ body{
 
 
 .sitenav {
-	    display: flex;
-	    align-items: center;
-	    justify-content: space-around;
-	    background: #E2ECEC;
+	    	display: flex;
+	   	 align-items: center;
+	    	justify-content: space-around;
+	    	background: #E2ECEC;
 		padding: 10px 0;
 		width: auto;
 		height: 200px;
 	  }
 		
 	.sitenav a {
-	    color: white;
+	    	color: white;
 		font-size: 18px;
-    	text-decoration: none;
-    	padding: 10px 20px;
-    	transition: all 0.3s ease;
+    		text-decoration: none;
+    		padding: 10px 20px;
+    		transition: all 0.3s ease;
 	  }
 		
 	.sitenav a:hover {
-	     color: #A7BED3;
+	     	color: #A7BED3;
 
 	  }
 
