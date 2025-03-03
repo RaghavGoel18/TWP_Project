@@ -24,7 +24,7 @@ body{
 			
 		}
 		h2{
-			
+			margin-top: 64px;
 			
 			
 			
@@ -162,4 +162,19 @@ body{
 
 	  }
 
+/*Icon CSS*/
+i {
+	color: #A7BED3;
+	
+		
+}
+.Legend-Key i{
+	font-size: 85%;
+	margin-left: 18px;
 
+}
+.Legend-Key i:first-child{
+	margin-left: 0px;
+	
+	
+}
