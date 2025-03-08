@@ -19,8 +19,13 @@ body{
 		}
 		h1{
 			text-align: center;
+			font-size: 45px;
+  			line-height: 1.0;
+  			
 			
-			
+		}
+		h1 .subtitle {
+  			font-family: Crimson Text;
 			
 		}
 		h2{
