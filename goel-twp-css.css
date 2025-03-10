@@ -56,14 +56,14 @@ body{
 			width: 100%;
   			border-collapse: collapse;
   			border: 1px solid;
-  			text-align: center;
+  			text-align: left;
 			border-radius: 8px;
   			overflow: hidden;
 			
 		}
 		th, td{
 			padding: 10px;
-  			text-align: center;
+  			text-align: left;
   			border: 1px solid #D6E1EA;
 			
 		}
