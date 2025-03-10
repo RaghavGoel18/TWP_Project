@@ -121,7 +121,7 @@ body{
         .gallery-grid {
             display: grid;
             grid-template-columns: auto auto auto;
-            grid-row-gap: 20px ;
+            grid-row-gap: 20px;
             justify-items: center;
             align-items: start;
             justify-content: space-between;
