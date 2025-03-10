@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+			margin: 0;
+			padding: 0;
+			background: #A7BED3;
+			color: #34495E;
+			font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 20px;
+			line-height: 150%;
+			
+		}
+		.wrapper{
+			background: #E2ECEC;
+			width: 1000px;			
+			margin: 0 auto;
+			padding: 20px 40px;
+		}
+		h1{
+			text-align: center;
+			font-size: 45px;
+  			line-height: 1.0;
+  			
+			
+		}
+		h1 .subtitle {
+  			font-family: Crimson Text;
+			
+		}
+
+		h2{
+			margin-top: 64px;
+			
+			
+			
+		}
+		h3{
+			
+			
+			
+			
+		}
+		p {
+			
+			
+			
+			
+		}
+		a {
+			color: #A7BED3;
+			text-decoration: none;
+			
+		}
+		table{
+			width: 100%;
+  			border-collapse: collapse;
+  			border: 1px solid;
+  			text-align: center;
+			border-radius: 8px;
+  			overflow: hidden;
+			
+		}
+		th, td{
+			padding: 10px;
+  			text-align: center;
+  			border: 1px solid #D6E1EA;
+			
+		}
+		th {
+  			background-color: #497093;
+  			color: whitesmoke;
+		}
+		tr:hover {
+  			background-color: #D6E1EA;
+		}
+		nav{
+			text-align: center;
+			background-color: #4C7499;
+			padding: 10px;
+			width: fit-content;
+			margin: auto;
+		}
+		nav a {
+  			text-decoration: none;
+  			color: white;
+  			padding: 10px;
+  			font-size: 16px;
+			
+		}
+		nav a:hover{
+			color: #A7BED3;
+	
+	
+		}
+		.TopButton{
+			color: #A7BED3;
+			font-size: 18px;
+    		text-decoration: none;
+    		padding: 9px 12px;
+    		transition: all 0.3s ease;
+			border: 1px solid;
+			border-radius: 20px;
+			
+		}
+		.TopButton:hover{
+	
+			color: white;
+			background: #9FC4E6;
+	
+		}
+		.highlight:hover{
+			color: #4C7499;
+			
+			
+		}
+
+
+/* gallery grid CSS */
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-row-gap: 20px ;
+            justify-items: center;
+            align-items: start;
+            justify-content: space-between;
+        }
+                        
+        .gallery-item {
+            width: 300px; /*should match the width of your images + width of border (if any) */
+            text-align: center;
+        } 
+        
+    /* css for styling the p/caption under the image */       
+        .gallery-item p {
+            margin: .25em 0;
+            line-height: 135%;
+        }
+
+	
+
+
+/* site header CSS */
+
+.site-logo-image {
+	
+	height: 250px;
+	
+}
+.sitenav a.logo {
+    border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	text-decoration: none;
+	
+}
+
+
+
+.sitenav {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-around;
+	    background: #E2ECEC;
+		padding: 10px 0;
+		width: auto;
+		height: 200px;
+	  }
+		
+	.sitenav a {
+	    color: #A7BED3;
+		font-size: 18px;
+    	text-decoration: none;
+    	padding: 9px 12px;
+    	transition: all 0.3s ease;
+		border: 1px solid;
+		border-radius: 20px;
+	  }
+		
+	.sitenav a:hover {
+	    color: white;
+		background: #9FC4E6;
+		
+
+	  }
+.sitenav a.logo:hover {
+	
+	background: none;
+	
+}
+
+
+/*Icon CSS*/
+i {
+	color: #A7BED3;
+	
+		
+}
+.Legend-Key i{
+	font-size: 85%;
+	margin-left: 18px;
+
+}
+.Legend-Key i:first-child{
+	margin-left: 0px;
+	
+	
+}
+
+
+/*Theory Pictures CSS*/
+.TheoryPicture{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.Caption {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
